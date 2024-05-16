@@ -1,0 +1,47 @@
+body {
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    background-color: #FFDDDC;
+    color:#f793ee;
+    margin: 0%;
+    /* padding:10%; */
+}
+
+.zcool-kuaile-regular {
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header {
+    background-color: #ffb7b8;
+    padding: 0 0;
+}
+  
+nav ul {
+    list-style: none;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* background-color: #FFDDDC; */
+    /* border: 10px solid black; */
+    text-align: center;
+    padding: 30px 0px 30px 0px; /* TOP RIGHT BOTTOM LEFT */
+
+}
+
+nav ul li {
+/* margin: 0 0px; */
+/* position: relative; */
+border: 2px solid black;
+border-radius: 15px;
+display: inline;
+margin: 0px 0px 0px 0px; /* TOP RIGHT BOTTOM LEFT */
+width: 20%;
+padding: 10px 50px 10px 50px; /* TOP RIGHT BOTTOM LEFT */
+color: white;
+-webkit-text-stroke-color: black;
+-webkit-text-stroke-width: medium;
+
+}
