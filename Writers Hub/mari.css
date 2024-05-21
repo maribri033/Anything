@@ -1,0 +1,175 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #ffdddc;
+    display: inline;
+    padding: 10px 60px 10px 60px; /* TOP RIGHT BOTTOM LEFT */
+    border-radius: 20px;
+}
+
+
+nav ul li {
+    border: 2px solid black;
+    border-radius: 15px; 
+    display: inline;
+    margin: 0.3px; 
+    padding: 10px 0.3px;
+    font-size: 30px; 
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color:#FFDDDC;
+    -webkit-text-stroke: #FF8F90;
+    -webkit-text-stroke-width: 1px;
+    font-family: "ZCOOL KuaiLe", sans-serif;    
+    margin-left: 20px; 
+    padding: 10px 20px;
+}
+
+nav {
+    border: 1px solid #FFB7B8;
+    text-align: center;
+    padding-top: 10%;
+    padding: 10px 20px; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    box-sizing: border-box; 
+    z-index: 2; 
+    background-color: #FFB7B8;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 10;
+}
+
+.nav2 {
+    /* Styles for the second navigation menu */
+    background-color: #EE8D8E; 
+    padding: 10px 0; 
+    position: fixed; 
+    bottom: 100; 
+    padding: 10px 0; 
+    margin-top: 47px;
+    border: none;
+    z-index: 1;
+}
+
+.nav3 {
+    background-color: #EE8D8E; 
+    margin-top: 65px;
+    width: 560px;
+    height: 85px;
+    transform: translateX(70%);
+    z-index: 1;
+    border: none;
+    position:fixed
+}
+
+.chat-box {
+    position: fixed;
+    bottom: 0;
+    margin-top: 500px;
+    margin-inline: 970px;
+    width: 350px; 
+    height: 100px;
+    background-color: #F6CECF; /* Background color for chat box */
+    padding: 10px; /* Padding around chat box */
+    z-index: 3; /* Ensure it is above all other elements */
+}
+
+#chat-input {
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ffffff; 
+    border-radius: 5px; 
+    margin-right: 0px; /* Space between input and button */
+}
+
+button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #FBACAD; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/*chat button*/
+button:hover {
+    background-color: #4cae4c; 
+}
+
+/* for tabs @ top*/
+.tab:active {
+    background-color: #EE8D8E; 
+}
+
+.search-container {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 17px;
+    padding: 5px;
+    border: 3px solid #E89595;
+    width: 400px;
+    top: 90px;
+    transform: translateX(112%);
+    z-index: 2;
+    position:fixed
+}
+
+.search-icon {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    flex-grow: 1;
+    color: #666;
+    border-radius: 25px;
+}
+
+/* not to be copied */
+.profile-container {
+    text-align: center; /* Center-align content */
+}
+
+.profile-picture {
+    width: 150px; /* Set width of profile picture container */
+    height: 150px; /* Set height of profile picture container */
+    border: 2px solid #ccc; /* Add border to profile picture container */
+    border-radius: 50%; /* Make profile picture container circular */
+    overflow: hidden; /* Hide overflowing content */
+    margin-top: 200px; /* Add space between profile picture and button */
+    margin-left: 200px;
+}
+
+.profile-picture img {
+    width: 100%; /* Make profile picture fill container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.edit-button {
+    padding: 10px 20px; /* Add padding to button */
+    background-color: #333; 
+    color: #fff; /* Set text color of button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
