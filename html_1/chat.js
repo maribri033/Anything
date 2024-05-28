@@ -8,6 +8,7 @@ document.getElementById('chat-form').addEventListener('submit', function(e) {
     
     // Clear the input field
     chatInput.value = '';
+    
 });
 
 

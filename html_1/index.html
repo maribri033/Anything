@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Writers Hub</title>
-        <link href="mari.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home!</a></li>
-                    <li><a href="#">Forums</a></li>
-                    <li><a href="#">Resources</a></li>
-                    <li><a href="create.html" class="tab">Create</a></li>
-                    <li><a href="#" class="tab"> Settings</a></li>
-                </ul>
-            </nav>
-            <form action="/search" method="GET" class="search-form">
-                <input type="text" name="query" placeholder="Search for Friends here...">
-                <input type="submit" value="Search">
-            </form>
-            <nav class=nav2>
-                <!-- Second navigation menu content -->
-            </nav>
-            <nav class="nav3">
-                <!-- Third navigation for search container -->
-            </nav>
-        </header>
-        <div class="profile-container">
-            <div class="profile-picture">
-                <!-- Placeholder for profile picture -->
-                <img src="placeholder.jpg" alt="Profile Picture">
-            </div>
-            <button class="edit-button">Change/Edit</button>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writers Hub</title>
+    <link href="mari.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="forums.html">Forums</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="create.html" class="tab">Create</a></li>
+                <li><a href="#" class="tab">Settings</a></li>
+            </ul>
+        </nav>
+        <form action="/search" method="GET" class="search-form">
+            <input type="text" name="query" placeholder="Search for Friends here...">
+            <input type="submit" value="Search">
+        </form>
+    </header>
+    <main>
+        <section class="profile-container">
+            <figure class="profile-picture">
+                <figcaption>
+                    <button class="edit-button">Change/Edit</button>
+                </figcaption>
+            </figure>
+        </section>
+        <div>
+            <section class="search-container">
+                 <input type="text" class="search-input" placeholder="Search for Friends here...">
+                <button class="search-button">
+                    <img src="search-icon.png" alt="Search">
+                </button>
+            </section>
         </div>
-        <div class="search-container">
-            <input type="text" class="search-input" placeholder="Search for Friends here...">
-            <button class="search-button">
-                <img src="search-icon.png" alt="Search">
-            </button>
-        </div>
-        <div class="chat-box">
+        <section class="chat-box">
             <form id="chat-form">
                 <input type="text" id="chat-input" placeholder="Type here..." required>
                 <button type="submit">Send</button>
             </form>
-        </div>
-        <script src="chat.js"></script> 
-        <footer> Copyright. Mari ♥ All rights Reserved. </footer>
-      </body>
-    </html>
+        </section>
+        <script src="chat.js"></script>
+    </main>
+    <footer>Copyright. Mari ♥ All rights Reserved.</footer>
+</body>
+</html>
