@@ -104,6 +104,19 @@ button:hover {
     z-index: 2;
 }
 
+.search-container::before {
+    content: '';
+    position: absolute;
+    top: -25px;  /* Adjust based on border width and padding */
+    left: -25px;
+    right: -25px;
+    bottom: -25px;
+    border: 20px solid #E89595;
+    border-radius: 17px;
+    transform: skew(5deg);
+    z-index: -1;
+}
+
 .search-icon {
     padding: 5px;
     display: flex;
